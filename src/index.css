@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-gray-50 text-gray-900;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .nav-pill-container {
+    @apply relative bg-gray-100 rounded-full p-1 flex;
+  }
+  
+  .nav-pill-item {
+    @apply relative z-10 px-4 py-2 text-sm font-medium text-gray-600 rounded-full transition-colors duration-200 cursor-pointer;
+  }
+  
+  .nav-pill-item.active {
+    @apply text-white;
+  }
+  
+  .nav-pill-slider {
+    @apply absolute top-1 bottom-1 bg-primary-600 rounded-full transition-transform duration-300 ease-in-out;
+  }
+  
+  .volunteer-card {
+    @apply bg-white rounded-lg border border-gray-200 p-4 shadow-sm transition-all duration-200;
+  }
+  
+  .volunteer-card.checked-in {
+    @apply bg-success-50 border-success-200;
+  }
+  
+  .checkin-button {
+    @apply px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 active:scale-95;
+  }
+  
+  .checkin-button.not-checked-in {
+    @apply bg-primary-600 text-white hover:bg-primary-700;
+  }
+  
+  .checkin-button.checked-in {
+    @apply bg-success-600 text-white hover:bg-success-700;
+  }
+}
