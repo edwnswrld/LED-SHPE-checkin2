@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { UserPlus, Check, AlertCircle } from 'lucide-react';
 import { ShpeNewVolunteerForm, SHPE_SHIFT_TIMES } from '../../types/ShpeVolunteerTypes';
 import { shpeValidateVolunteerForm, shpeClassNameMerger } from '../../utils/ShpeUtilityHelpers';

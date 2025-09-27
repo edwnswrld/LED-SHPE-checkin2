@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { RefreshCw, Download, Users, Clock, AlertTriangle } from 'lucide-react';
-import { ShpeNavigationTab } from './types/ShpeVolunteerTypes';
+import { ShpeNavigationTab, ShpeNewVolunteerForm } from './types/ShpeVolunteerTypes';
 import { useShpeVolunteers } from './hooks/useShpeVolunteers';
 import { ShpeNavigationPills } from './components/ShpeNavigationPills';
 import { ShpeScheduleView } from './components/views/ShpeScheduleView';
@@ -38,7 +38,7 @@ export default function CheckinHubApp() {
   };
 
   // Handle adding new volunteer with loading state
-  const handleAddNewVolunteer = async (volunteerData: any) => {
+  const handleAddNewVolunteer = async (volunteerData: ShpeNewVolunteerForm) => {
     setShpeIsAddingVolunteer(true);
     try {
       return await shpeAddVolunteer(volunteerData);

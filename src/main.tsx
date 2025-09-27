@@ -1,10 +1,10 @@
-import React from 'react'
+import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import CheckinHubApp from './CheckinHubApp.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+  <StrictMode>
     <CheckinHubApp />
-  </React.StrictMode>,
+  </StrictMode>,
 )
