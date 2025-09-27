@@ -17,6 +17,12 @@ A mobile-optimized React web application for managing volunteer check-ins during
 - **Responsive Layout**: Adapts seamlessly to phones, tablets, and desktop
 - **Offline Resilient**: Graceful fallback when network is unavailable
 
+### Privacy & Security
+- **Search Engine Protection**: Site is not indexable by Google, Bing, or other search engines
+- **Private Event System**: Comprehensive robots.txt and meta tags prevent discovery
+- **Secure Headers**: X-Frame-Options, referrer policy, and content security measures
+- **No Social Sharing**: Protected from accidental social media sharing
+
 ## 🚀 Quick Start
 
 ### Prerequisites
