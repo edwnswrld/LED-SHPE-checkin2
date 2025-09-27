@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { ChevronDown, ChevronRight, Users, Filter } from 'lucide-react';
 import { ShpeProcessedVolunteer, SHPE_SHIFT_TIMES } from '../../types/ShpeVolunteerTypes';
 import { ShpeVolunteerCard } from '../ShpeVolunteerCard';

@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { ShpeVolunteerData, ShpeProcessedVolunteer, ShpeNewVolunteerForm } from '../types/ShpeVolunteerTypes';
+import { ShpeProcessedVolunteer, ShpeNewVolunteerForm } from '../types/ShpeVolunteerTypes';
 import { shpeVolunteerService } from '../services/ShpeVolunteerService';
 import { 
   shpeProcessVolunteerData, 

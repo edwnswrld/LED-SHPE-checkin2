@@ -1,4 +1,4 @@
-import React from 'react';
+// React import removed - not needed for JSX in React 17+
 import { Check, Clock } from 'lucide-react';
 import { ShpeProcessedVolunteer } from '../types/ShpeVolunteerTypes';
 import { shpeClassNameMerger } from '../utils/ShpeUtilityHelpers';

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Users, Search as SearchIcon } from 'lucide-react';
 import { ShpeProcessedVolunteer } from '../../types/ShpeVolunteerTypes';
 import { ShpeVolunteerCard } from '../ShpeVolunteerCard';
